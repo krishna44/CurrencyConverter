@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Curreny Converter</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div id="box" class="container form-group">
+<form class="form-inline">
+<p>Currency Converter</p>
+<div class="form-group">
+<label>Type in amount and select currency:</label>
+<input class="form-control" id="fromAmount" type="text" size="15" placeholder = "0.00" onkeyup="convertCurrency()" onclick = 'javascript: this.value = ""'>
+<select class="form-control" id="from" onchange="convertCurrency()">
+<option value="CAD">CAD</option>
+<option value="USD" selected>USD</option>
+<option value="EUR" >EUR</option>
+</select>
+</div>
+<div class="form-group">
+<label>Converted amount:</label>
+<input class="form-control" id="toAmount" type="text" size="15" placeholder = "0.00" readonly >
+<select class="form-control" id="to" onchange= "convertCurrency()" >
+<option value="CAD" selected>CAD</option>
+<option value="USD">USD</option>
+<option value="EUR">EUR</option>
+</select>
+</div>
+</form>
+<a href="Disclaimer.html" target="_blank">Disclaimer</a>
+</div>
+<script src = "js/jsscript.js"></script>
+</body>
+</html>

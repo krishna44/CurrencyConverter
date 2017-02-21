@@ -1,0 +1,89 @@
+  #box {
+        
+        width: 300px;
+        height: auto;
+        margin: 30px auto;
+        border: 1px solid black;
+        padding: 15px;
+        
+    }
+table {
+    
+    border: 1px solid silver;
+}
+
+a {
+    font-size: .9em;
+    
+}
+
+table tr td {
+    
+    padding: 20px !important;
+}
+
+
+th {
+    
+        border-right: 1px solid silver;
+        background-color: grey;
+        color: white;
+        padding: 20px !important;
+}
+
+td {
+    padding-left: 30px;
+    border-right: 1px solid silver;
+    width: 300px;
+}
+#box4 {
+    
+    margin: 30px auto;
+}
+    
+    p {
+        
+        font-size: 1.3em;
+        font-weight: normal;
+        
+    }
+    
+    input {
+        
+        padding-right: 30px !important;
+        margin-right: 7px;
+    }
+    
+    .form-group {
+        
+        padding-bottom: 15px !important;
+    }
+    
+    a {
+        
+        float: right;
+    }
+
+label {
+    
+    display:block;
+    font-size: .9em;
+    font-weight: normal;
+}
+
+select {
+    
+    width: 100px !important;
+    background-color: whitesmoke !important;
+    background-image: -webkit-linear-gradient(top, whitesmoke, #f1f1f1);
+}
+
+@media (min-width: 768px) {
+    
+    input {
+        
+        width: 157px !important;
+    } 
+    
+    
+}
